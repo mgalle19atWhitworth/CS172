@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="e20efda2-094b-4dc5-8793-430455f1e20b" name="UMLClassDiagram1" linkedPackageId="8a21f581-eadf-4205-857e-58419b6997e1" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="79365af8-63ae-47e0-8e21-802646c3c1c1">
+      <profileInstance Id="731a301c-05bb-48e9-9274-ff7464c4bc60" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e7877f0b-1ff2-4fd0-9fbb-c173c717112e">
+      <profileInstance Id="9d87831f-78f6-465b-b45c-7c3f279a2377" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="18cad64a-3260-46d6-91f2-661189c66ce5" name="Quadratic Equation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="474e520e-a00f-4f1e-aa69-8fa662a59fbb" />
+        <ownedAttributesInternal>
+          <property Id="4a069673-d49b-4cc0-87d4-e738ddc9c7eb" name="a" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dc2d24d3-a4bc-459c-937d-43fb0b3fa65c" />
+          </property>
+          <property Id="370cf273-2d1c-4d1e-ae6e-b340de169da2" name="b" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4cfa85f8-39dc-4b9b-a8a1-2a5b95d7fb70" />
+          </property>
+          <property Id="5a377bda-a37d-4d85-bd6b-fbb48c31751a" name="c" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="32343461-74b3-4d9c-a0d1-2f810187f840" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="a52d99ab-63d9-4739-ab61-00e8a460218c" name="double getDiscriminant" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5182fe2c-33b4-43bb-83f7-beec3869c9e1" />
+          </operation>
+          <operation Id="517dd3ff-5392-4bba-9e59-90bc38bb14ce" name="double getRoot1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a402de80-2c67-481a-998e-10e138256082" />
+          </operation>
+          <operation Id="515ba7fd-c102-46db-862a-c5375f8c28bc" name="getRoot2" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ff0c5b65-f51f-4c2d-8e30-e55ee8805fd3" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="8a21f581-eadf-4205-857e-58419b6997e1" name="ModelingProject1">
+    <elementDefinition Id="47709143-b989-44e6-bdd4-c3973e8fcc80" />
+  </package>
+</logicalClassDesignerModel>
