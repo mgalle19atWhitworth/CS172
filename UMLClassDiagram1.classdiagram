@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="55272701-f02f-4dbb-a2fd-2385fc0aaf55" name="UMLClassDiagram1" linkedPackageId="ccdd6bd0-85b5-406a-b030-90dbcb3fade3" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="60b0d6ea-c49b-428f-aea8-694f8a8e4cbd">
+      <profileInstance Id="aed3864a-4883-431a-973d-3dc6d6b56d17" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="3bfaabaa-e986-4c54-a88a-6b530d349f07">
+      <profileInstance Id="82906908-bbad-415f-9ac2-3f51173e1335" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3b191870-4003-44b4-98c2-298e47c383ab" name="Fan" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="60bbf94c-3122-44a4-a6c8-bc2aa03751a5" />
+        <ownedAttributesInternal>
+          <property Id="433e6c7e-9a5c-42b1-b065-4fed70a2c7fd" name="int Speed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="68fa34e6-7135-4b06-a33c-324a36b6f388" />
+          </property>
+          <property Id="d10a4a6c-e9a9-4ffe-89df-f7834bb9e38a" name="Bool on" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2ab3e1e7-bbec-4642-b0e0-43f547da48e0" />
+          </property>
+          <property Id="2ad01d41-eaaf-4d3f-a5d6-34bdaf563faa" name="int radius" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9b5be866-b6d7-43cb-ad4c-e9fbaf7a20f0" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="793b246d-9541-471d-8d2b-8d36afc4cb04" name="void defult" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7fc4b840-46cc-4b4b-b2cb-bf169dff8ba5" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="ccdd6bd0-85b5-406a-b030-90dbcb3fade3" name="ModelingProject1">
+    <elementDefinition Id="1d8ff235-8514-4fe4-9332-100a89a68da0" />
+  </package>
+</logicalClassDesignerModel>
