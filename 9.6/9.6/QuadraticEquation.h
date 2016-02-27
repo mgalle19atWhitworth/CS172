@@ -1,3 +1,6 @@
+/*  ---Joseph--- Don't forget to include header definition guards. This will be very important as the projects get bigger. */
+
+
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -8,7 +11,7 @@ class QuadraticEquation
 {
 	//The whole thing is public
 public:
-	// The attrubutes
+	// The attrubutes														/* ---Joseph--- these probably should have been private (-1) */
 	int a;
 	int b;
 	int c;

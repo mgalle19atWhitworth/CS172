@@ -13,7 +13,7 @@ class Fan
 {
 // The whole thing is public
 public:
-	// The attributes
+	// The attributes                              /* ---Joseph--- These probably should have been private (-1) */
 	bool on;
 	int speed;
 	double radius;
