@@ -1,0 +1,7 @@
+EX06_01: Great work. Good work with all of the comments
+EX06_02: Nice job
+EX06_03: No UML. But mice work, code looks good, there are some linker errors. I'm not convinced that it isn't my computer. No loss of points for these.
+EX06_04: Good job
+
+Extra Credit
+EX06_05: None

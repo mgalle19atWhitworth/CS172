@@ -1,0 +1,7 @@
+EX05_01: 
+EX05_02: 
+EX05_03: 
+EX05_04: -10 Didn't implement the contains functions
+EX05_05: -3 Didn't use dynamically allocated arrays and didn't copy of the new array when dropping students.
+
+Notes: 
